@@ -10,6 +10,7 @@ class DeviceManager:
     def __init__(self):
         self.supported_wheels = {
             wid.LG_G29: 900,
+            wid.LG_G29PS4: 900,
             wid.LG_G920: 900,
             wid.LG_G923X: 900,
             wid.LG_G923P: 900,
